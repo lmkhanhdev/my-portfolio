@@ -24,6 +24,7 @@ const Navbar: React.FC<NavProps> = ({ containerStyles, linkStyles }) => {
     { path: "/about", name: "About", active: pathname === "/about" },
     { path: "/blog", name: "Blog", active: pathname === "/blog" },
     { path: "/projects", name: "Projects", active: pathname === "/projects" },
+    { path: "/donate", name: "Donate", active: pathname === "/donate" },
   ];
   return (
     <nav className={`${containerStyles}`}>
@@ -36,7 +37,7 @@ const Navbar: React.FC<NavProps> = ({ containerStyles, linkStyles }) => {
               key={index}
               className={`capitalize ${linkStyles} ${
                 active
-                  ? "px-2.5 py-1 rounded-md bg-gray-300 dark:bg-gray-700 transition-all text-gray-800 dark:text-white"
+                  ? "px-2.5 py-1 rounded-md bg-gray-300 dark:bg-[#101111] transition-all text-gray-800 dark:text-white"
                   : ""
               }`}
             >

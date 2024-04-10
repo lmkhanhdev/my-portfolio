@@ -5,10 +5,10 @@ import Image, { StaticImageData } from "next/image";
 import { motion } from "framer-motion";
 import clsx from "clsx";
 
-import tea from "../../../../public/tea.jpg";
-import gogo from "../../../../public/gogo.jpg";
-import city from "../../../../public/city.jpg";
-import city2 from "../../../../public/city2.jpg";
+import tea from "@/public/tea.jpg";
+import gogo from "@/public/gogo.jpg";
+import city from "@/public/city.jpg";
+import city2 from "@/public/city2.jpg";
 import Halo from "@/components/ui/halo";
 
 type PhotoProps = {

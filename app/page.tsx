@@ -8,22 +8,20 @@ export default function Home() {
       <div className=" h-dvh mt-20">
         <div className=" space-y-6">
           <div>
-            <h1 className="text-2xl font-bold capitalize ">la minh khanh</h1>
-            <p className=" capitalize text-md text-slate-600 dark:text-slate-400 ">
-              software engineer
-            </p>
-          </div>
-          <div>
             <Image
               src="/avatar.png"
               alt=""
               width={100}
               height={100}
-              className="bg-gray-200 dark:bg-gray-500 p-2 pb-0 rounded-[50%]"
+              className="dark:bg-[#101111] pt-2 rounded-full"
               priority
             />
           </div>
-          <p className="max-w-lg  text-primary">
+          <div>
+            <h1 className="text-2xl font-bold capitalize ">la minh khanh</h1>
+          </div>
+
+          <p className="max-w-lg  text-muted-foreground">
             Good evening! I'm a programmer who loves building new things. With a
             keen eye for detail and a knack for creative problem-solving, I'm
             enthusiastic about contributing to innovative projects. My
