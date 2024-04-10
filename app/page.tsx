@@ -22,9 +22,9 @@ export default function Home() {
           </div>
 
           <p className="max-w-lg  text-muted-foreground">
-            Good evening! I'm a programmer who loves building new things. With a
-            keen eye for detail and a knack for creative problem-solving, I'm
-            enthusiastic about contributing to innovative projects. My
+            Good evening&! I&apos;m a programmer who loves building new things.
+            With a keen eye for detail and a knack for creative problem-solving,
+            I&apos;m enthusiastic about contributing to innovative projects. My
             commitment to continuous learning ensures I stay at the forefront of
             technology.
           </p>
