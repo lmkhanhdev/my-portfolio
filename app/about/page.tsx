@@ -36,7 +36,7 @@ const About = () => {
           <Image
             src={gogo}
             alt={"me and lily"}
-            width={220}
+            width={200}
             height={230}
             className="absolute inset-0 object-cover bg-gray-400
              shadow-md pointer-events-none rounded-2xl rotate-6 left-[45%]

@@ -20,7 +20,7 @@ const Links = () => {
             alt=""
             width={100}
             height={100}
-            className="bg-gray-200 dark:bg-gray-500 p-2 pb-0 rounded-[50%] animate-in mx-auto"
+            className="bg-gray-200 dark:bg-[#101111]  rounded-[50%] animate-in mx-auto"
             style={{ "--index": 1 } as React.CSSProperties}
           />
           <div
