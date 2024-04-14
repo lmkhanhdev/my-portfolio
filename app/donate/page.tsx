@@ -66,11 +66,7 @@ const Donate = () => {
           </div>
         </li>
       </ul>
-      <footer
-        data-aos="fade-up"
-        data-aos-duration="1000"
-        className="flex justify-center items-center text-xl font-bold gap-4"
-      >
+      <footer className="flex justify-center items-center text-xl font-bold gap-4">
         Thank you for donating to me!{" "}
         <span className=" text-amber-500">
           <SiCoffeescript size={40} />
