@@ -26,7 +26,11 @@ const Donate = () => {
         title="If you cherish me, you can support me by donating below."
       />
       <ul className="animate-in grid md:grid-cols-2 grid-cols-1  gap-10 animated-list">
-        <li className="border p-8 space-y-10 rounded-xl bg-muted cursor-pointer">
+        <li
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          className="border p-8 space-y-10 rounded-xl bg-muted cursor-pointer"
+        >
           <span className=" text-yellow-600">
             <RiExchangeDollarLine size={35} />
           </span>
@@ -43,7 +47,11 @@ const Donate = () => {
             <Image src={QRMb} width={200} height={200} alt="" priority />
           </div>
         </li>
-        <li className="border p-8 space-y-10 rounded-xl bg-muted cursor-pointer">
+        <li
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          className="border p-8 space-y-10 rounded-xl bg-muted cursor-pointer"
+        >
           <span className=" text-yellow-600">
             <FcMoneyTransfer size={35} />
           </span>
@@ -58,7 +66,11 @@ const Donate = () => {
           </div>
         </li>
       </ul>
-      <footer className="flex justify-center items-center text-xl font-bold gap-4">
+      <footer
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="flex justify-center items-center text-xl font-bold gap-4"
+      >
         Thank you for donating to me!{" "}
         <span className=" text-amber-500">
           <SiCoffeescript size={40} />

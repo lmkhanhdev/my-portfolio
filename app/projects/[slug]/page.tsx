@@ -14,7 +14,11 @@ const Project = ({ params }: { params: any }) => {
   return (
     <div className="flex flex-col gap-20 my-20">
       <article>
-        <div className="flex animate-in flex-col gap-3">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="flex animate-in flex-col gap-3"
+        >
           <div className="flex gap-3 text-muted-foreground">
             <p>{post.time}</p>
             {post.url && (
@@ -38,14 +42,15 @@ const Project = ({ params }: { params: any }) => {
         </div>
 
         <div className="h-12" />
-        <div
-          className="project prose animate-in"
-          style={{ "--index": 2 } as React.CSSProperties}
-        >
+        <div className="project prose animate-in">
           <MdxWrapper code={post.body.code} />
         </div>
       </article>
-      <div className="flex flex-col gap-20">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1400"
+        className="flex flex-col gap-20"
+      >
         <div className="flex flex-col gap-6">
           <h2>Tags</h2>
           <div className="flex flex-wrap gap-3 ">

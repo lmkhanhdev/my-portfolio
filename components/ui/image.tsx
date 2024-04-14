@@ -26,6 +26,8 @@ export default function CustomImage({
 }: CustomImageProps) {
   return (
     <div
+      data-aos="fade-up"
+      data-aos-duration="1200"
       className={clsx(
         reset ? "" : "not-prose my-8 w-full",
         breakout ? "bg-tertiary" : "",

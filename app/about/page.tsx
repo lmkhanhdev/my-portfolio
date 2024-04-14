@@ -53,7 +53,11 @@ const About = () => {
         style={{ "--index": 3 } as React.CSSProperties}
       >
         <Section heading="About" headingAlignment="left">
-          <div className="flex flex-col gap-6">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="flex flex-col gap-6"
+          >
             <p>Hello world, I&apos;m La Minh Khanh!</p>
 
             <p>
@@ -69,7 +73,11 @@ const About = () => {
         </Section>
 
         <Section heading="Connect" headingAlignment="left">
-          <div className="flex flex-col gap-6">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            className="flex flex-col gap-6"
+          >
             <p>
               Have a question or just want to chat? Feel free to{" "}
               <Link
@@ -101,7 +109,11 @@ const About = () => {
           </div>
         </Section>
         <Section heading="Work" headingAlignment="left">
-          <div className="flex flex-col gap-6">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1400"
+            className="flex flex-col gap-6"
+          >
             <p>
               {new Date().getFullYear() - 2021}+ years of professional
               development experience.

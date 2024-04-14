@@ -15,14 +15,16 @@ const Links = () => {
     <>
       <div className="flex flex-col mt-20">
         <div className="flex animate-in flex-col gap-12">
-          <Image
-            src="/avatar.png"
-            alt=""
-            width={100}
-            height={100}
-            className="bg-gray-200 dark:bg-[#101111]  rounded-[50%] animate-in mx-auto"
-            style={{ "--index": 1 } as React.CSSProperties}
-          />
+          <div data-aos="fade-up" data-aos-duration="1000">
+            <Image
+              src="/avatar.png"
+              alt=""
+              width={100}
+              height={100}
+              className="bg-gray-200 dark:bg-[#101111]  rounded-[50%] animate-in mx-auto"
+              style={{ "--index": 1 } as React.CSSProperties}
+            />
+          </div>
           <div
             className="flex flex-col mx-auto text-center space-y-1 animate-in"
             style={{ "--index": 2 } as React.CSSProperties}
@@ -40,7 +42,12 @@ const Links = () => {
             style={{ "--index": 3 } as React.CSSProperties}
           >
             {ConnectLinks.map((link) => (
-              <li className="col-span-1 transition-opacity" key={link.label}>
+              <li
+                data-aos="fade-up"
+                data-aos-duration="1300"
+                className="col-span-1 transition-opacity"
+                key={link.label}
+              >
                 <Link
                   href={link.href}
                   className="inline-grid w-full rounded-lg bg-tertiary p-4 no-underline transition-opacity bg-secondary"

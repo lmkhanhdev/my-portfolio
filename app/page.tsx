@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className=" h-dvh mt-20">
         <div className=" space-y-6">
-          <div>
+          <div data-aos="fade-up" data-aos-duration="1000">
             <Image
               src="/avatar.png"
               alt=""
@@ -17,18 +17,26 @@ export default function Home() {
               priority
             />
           </div>
-          <div>
+          <div data-aos="fade-up" data-aos-duration="1200">
             <h1 className="text-2xl font-bold capitalize ">la minh khanh</h1>
           </div>
 
-          <p className="max-w-lg  text-muted-foreground">
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1400"
+            className="max-w-lg  text-muted-foreground"
+          >
             Good evening! I&apos;m a programmer who loves building new things.
             With a keen eye for detail and a knack for creative problem-solving,
             I&apos;m enthusiastic about contributing to innovative projects. My
             commitment to continuous learning ensures I stay at the forefront of
             technology.
           </p>
-          <ul className="animated-list flex  flex-col gap-2 text-secondary md:flex-row md:gap-6">
+          <ul
+            data-aos="fade-up"
+            data-aos-duration="1600"
+            className="animated-list flex  flex-col gap-2 text-secondary md:flex-row md:gap-6"
+          >
             <li className="transition-opacity">
               <Link
                 href="/links"

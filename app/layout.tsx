@@ -4,6 +4,7 @@ import "./globals.css";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import AOSinit from "@/components/ui/aos-init";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +26,10 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system">
           <Header />
-          <MaxWidthWrapper>{children}</MaxWidthWrapper>
+          <MaxWidthWrapper>
+            <AOSinit />
+            {children}
+          </MaxWidthWrapper>
         </ThemeProvider>
       </body>
     </html>

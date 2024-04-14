@@ -26,6 +26,8 @@ const Project = () => {
       >
         {projects.map((project, i) => (
           <li
+            data-aos="fade-up"
+            data-aos-duration="1000"
             key={project.slug}
             className={clsx(
               "py-6 flex flex-col md:flex-row gap-4 md:gap-6 transition-opacity first:pt-0 last:pb-0"
