@@ -19,6 +19,7 @@ export default function Home() {
           </div>
           <div data-aos="fade-up" data-aos-duration="1200">
             <h1 className="text-2xl font-bold capitalize ">la minh khanh</h1>
+            <p className="font-bold text-lg capitalize text-muted-foreground">video editor</p>
           </div>
 
           <p
